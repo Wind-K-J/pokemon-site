@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#f4f6ff"/>
+      <stop offset="0.6" stop-color="#e7e9f4"/>
+      <stop offset="1" stop-color="#d3d7e7"/>
+    </radialGradient>
+    <linearGradient id="mask" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3e4a74"/>
+      <stop offset="0.48" stop-color="#222b4b"/>
+      <stop offset="1" stop-color="#11162b"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#161d36"/>
+      <stop offset="1" stop-color="#3d4770"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="35%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#fff9c9"/>
+      <stop offset="0.7" stop-color="#ffdf6a"/>
+      <stop offset="1" stop-color="#d9a900"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1b2036" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="460" cy="156" r="132" fill="#7b88b7" opacity="0.12"/>
+  <circle cx="138" cy="412" r="118" fill="#ffcb05" opacity="0.09"/>
+  <path d="M0 486 Q160 444 320 480 T600 464 V600 H0Z" fill="#cbd0e2"/>
+  <ellipse cx="304" cy="506" rx="180" ry="26" fill="#8891b2" opacity="0.32" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M104 254 Q196 174 300 196 Q404 174 496 254 Q520 280 498 312 Q396 358 300 330 Q204 358 102 312 Q80 280 104 254Z" fill="url(#band)"/>
+    <path d="M122 256 Q210 196 300 216 Q390 196 478 256 Q500 278 482 302 Q392 338 300 312 Q208 338 118 302 Q100 278 122 256Z" fill="url(#mask)" stroke="#4f5b8c" stroke-width="1.5"/>
+    <path d="M176 282 Q226 300 274 284" stroke="#0b0e1c" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M326 284 Q374 300 424 282" stroke="#0b0e1c" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M176 262 Q216 248 260 256" stroke="#6976a8" stroke-width="2" fill="none" opacity="0.55"/>
+    <path d="M122 256 Q210 196 300 216" stroke="#8794c7" stroke-width="1.2" fill="none" opacity="0.4"/>
+    <path d="M300 216 Q390 196 478 256" stroke="#8794c7" stroke-width="1.2" fill="none" opacity="0.4"/>
+    <ellipse cx="300" cy="240" rx="26" ry="12" fill="#ffcb05" opacity="0.12"/>
+  </g>
+
+  <g transform="translate(422 210)">
+    <circle r="46" fill="url(#moon)" opacity="0.9"/>
+    <circle cx="-14" cy="-12" r="6" fill="#fff8cf" opacity="0.5"/>
+    <circle cx="12" cy="8" r="4" fill="#c79800" opacity="0.45"/>
+    <path d="M-18 -28 L-14 -36 L-10 -28 M20 -24 L24 -34 L28 -24" stroke="#fff2a8" stroke-width="2" fill="none" opacity="0.7"/>
+  </g>
+
+  <g fill="#ffe477" opacity="0.7">
+    <circle cx="124" cy="166" r="2.6"/>
+    <circle cx="188" cy="128" r="1.8"/>
+    <circle cx="244" cy="104" r="2.2"/>
+    <circle cx="346" cy="108" r="1.6"/>
+    <circle cx="402" cy="138" r="2.4"/>
+    <circle cx="470" cy="342" r="2"/>
+    <circle cx="140" cy="354" r="1.8"/>
+    <circle cx="210" cy="396" r="2.2"/>
+  </g>
+
+  <g transform="translate(86 92)">
+    <rect width="166" height="36" rx="18" fill="#101529" opacity="0.9"/>
+    <text x="83" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2.2" fill="#ffe477">SNORLAX SLEEP MASK</text>
+  </g>
+  <text x="508" y="542" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3" fill="#78809f">MEMORY FOAM / 3D</text>
+</svg>

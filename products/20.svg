@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="40%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#fffdf0"/>
+      <stop offset="0.62" stop-color="#f4f1e2"/>
+      <stop offset="1" stop-color="#e2ddc8"/>
+    </radialGradient>
+    <linearGradient id="case" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe977"/>
+      <stop offset="0.42" stop-color="#ffd32a"/>
+      <stop offset="1" stop-color="#e0a300"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff6c2"/>
+      <stop offset="1" stop-color="#c68a00"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3548"/>
+      <stop offset="0.55" stop-color="#151b27"/>
+      <stop offset="1" stop-color="#080b11"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#5d4b12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="150" cy="448" r="150" fill="#ffcb05" opacity="0.12"/>
+  <path d="M0 472 Q160 430 320 470 T600 456 V600 H0Z" fill="#ded6bf" opacity="0.55"/>
+  <ellipse cx="310" cy="512" rx="170" ry="26" fill="#b4a47a" opacity="0.34" filter="url(#soft)"/>
+
+  <g transform="rotate(-9 300 300)" filter="url(#shadow)">
+    <rect x="214" y="104" width="186" height="354" rx="34" fill="url(#edge)"/>
+    <rect x="222" y="112" width="170" height="338" rx="28" fill="url(#case)"/>
+    <rect x="238" y="136" width="138" height="286" rx="22" fill="url(#screen)"/>
+    <rect x="248" y="148" width="118" height="262" rx="16" fill="none" stroke="#ffd84d" stroke-width="1" opacity="0.2"/>
+    <path d="M248 322 Q300 286 356 322" stroke="#ffcb05" stroke-width="1.5" fill="none" opacity="0.28"/>
+    <circle cx="282" cy="188" r="31" fill="#10151f" stroke="#ffd84d" stroke-width="2"/>
+    <circle cx="282" cy="188" r="13" fill="#1e344f"/>
+    <circle cx="278" cy="184" r="4" fill="#bde3ff"/>
+    <path d="M292 212 L330 176" stroke="#ffe477" stroke-width="2" opacity="0.45"/>
+    <path d="M228 230 L214 240 V330 L228 340" fill="#ffdf55" stroke="#b88400" stroke-width="2"/>
+    <path d="M386 232 L398 244 V322 L386 334" fill="#ffdf55" stroke="#b88400" stroke-width="2"/>
+    <rect x="360" y="174" width="10" height="46" rx="5" fill="#dca400"/>
+    <path d="M256 112 L238 38 L282 96Z" fill="#ffd32a" stroke="#b88400" stroke-width="2"/>
+    <path d="M364 112 L382 38 L338 96Z" fill="#ffd32a" stroke="#b88400" stroke-width="2"/>
+    <path d="M246 98 Q260 74 270 96Z" fill="#221a08" opacity="0.85"/>
+    <path d="M374 98 Q360 74 350 96Z" fill="#221a08" opacity="0.85"/>
+    <circle cx="300" cy="410" r="26" fill="#fff6c6" opacity="0.22"/>
+    <path d="M-26 0 H26" stroke="#fff" stroke-width="0.8" opacity="0.3"/>
+  </g>
+
+  <g transform="translate(86 94)">
+    <rect width="160" height="36" rx="18" fill="#1b202b" opacity="0.9"/>
+    <text x="80" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2.4" fill="#ffe477">PIKA PHONE CASE</text>
+  </g>
+  <text x="508" y="542" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3" fill="#8d8060">SOFT TPU / 6.1"</text>
+</svg>

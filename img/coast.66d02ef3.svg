@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.9">
+<g stroke="#d8f6ff" fill="none" opacity=".44">
+  <path d="M0 322 Q180 306 360 320 T720 318 T1080 316 T1440 320" stroke-width="2.4"/>
+  <path d="M0 350 Q150 334 300 348 T600 348 T900 346 T1200 350 T1440 346" stroke-width="1.8"/>
+  <path d="M40 378 Q190 364 340 376 T640 376 T940 374 T1240 378 T1440 374" stroke-width="1.4"/>
+</g>
+<g fill="#1b5f7d" opacity=".46">
+  <path d="M0 420 L0 356 Q54 330 106 352 Q150 370 196 348 L212 420Z"/>
+  <path d="M1440 420 L1440 348 Q1386 326 1334 350 Q1290 368 1246 344 L1232 420Z"/>
+  <ellipse cx="92" cy="398" rx="70" ry="22"/>
+  <ellipse cx="1358" cy="392" rx="82" ry="26"/>
+</g>
+<g fill="#e8fbff" opacity=".34">
+  <path d="M44 420 Q60 344 78 334 L96 338 Q118 352 132 420Z"/>
+  <path d="M1320 420 Q1336 336 1360 326 L1382 330 Q1404 350 1420 420Z"/>
+</g>
+<g opacity=".8">
+  <rect x="1332" y="168" width="52" height="252" fill="#22708f" opacity=".55"/>
+  <rect x="1332" y="238" width="52" height="26" fill="#d0644a" opacity=".62"/>
+  <rect x="1332" y="318" width="52" height="22" fill="#d0644a" opacity=".5"/>
+  <polygon points="1326,168 1358,112 1390,168" fill="#d0644a" opacity=".62"/>
+  <rect x="1352" y="104" width="12" height="26" fill="#ffe9a3" opacity=".8"/>
+  <circle cx="1358" cy="104" r="4" fill="#fff6cf" opacity=".95"/>
+</g>
+<g stroke="#4e8a58" fill="none" opacity=".44">
+  <path d="M28 420 Q24 382 8 366 M28 420 Q38 386 56 372 M30 420 Q42 396 66 398"/>
+  <path d="M1198 420 Q1194 380 1178 362 M1198 420 Q1208 386 1226 374 M1200 420 Q1210 396 1234 400"/>
+</g>
+<g fill="#fff3c0" opacity=".5">
+  <circle cx="240" cy="300" r="1.8"/><circle cx="340" cy="272" r="1.4"/><circle cx="1120" cy="286" r="1.7"/><circle cx="1010" cy="258" r="1.4"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#fffdf2"/>
+      <stop offset="0.62" stop-color="#f4efe1"/>
+      <stop offset="1" stop-color="#e6ddc9"/>
+    </radialGradient>
+    <linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3c4250"/>
+      <stop offset="0.48" stop-color="#242a35"/>
+      <stop offset="1" stop-color="#151922"/>
+    </linearGradient>
+    <linearGradient id="sleeve" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#303746"/>
+      <stop offset="1" stop-color="#171c26"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe477"/>
+      <stop offset="1" stop-color="#ffc400"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#1a1d24" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="430" cy="170" r="150" fill="#ffcb05" opacity="0.12"/>
+  <path d="M0 470 Q160 420 300 468 T600 452 V600 H0Z" fill="#e2d8c2" opacity="0.5"/>
+  <ellipse cx="306" cy="505" rx="176" ry="28" fill="#b8aa8b" opacity="0.34" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M212 190 Q300 142 388 190 L430 214 L443 342 L398 350 L402 468 L198 468 L202 350 L157 342 L170 214Z" fill="url(#cloth)"/>
+    <path d="M214 193 Q300 151 386 193 L374 240 Q300 208 226 240Z" fill="#4a5160"/>
+    <path d="M224 236 Q300 204 376 236 Q352 274 334 300 Q300 282 266 300 Q248 274 224 236Z" fill="#1d232d"/>
+    <path d="M254 300 L254 352 M346 300 L346 352" stroke="#11151d" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="254" cy="356" r="9" fill="#c9ced8"/>
+    <circle cx="346" cy="356" r="9" fill="#c9ced8"/>
+    <path d="M198 468 L198 438 Q300 458 402 438 L402 468Z" fill="#0f131a" opacity="0.7"/>
+    <path d="M158 342 L200 350 L198 386 L164 380Z" fill="url(#sleeve)"/>
+    <path d="M442 342 L400 350 L402 386 L436 380Z" fill="url(#sleeve)"/>
+    <path d="M202 392 Q302 414 400 390" stroke="#4b5260" stroke-width="2" fill="none" opacity="0.55"/>
+  </g>
+
+  <g transform="translate(300 378)">
+    <path d="M-52 20 L-6 -8 L-12 -44 L-34 -2 L-8 2 L-22 50 L28 -8 L10 -2 L30 -36 L-2 8 L-20 2Z" fill="url(#yellow)" opacity="0.98"/>
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#ffe477" stroke-width="1.4" opacity="0.45"/>
+  </g>
+
+  <g transform="translate(94 104)">
+    <rect width="140" height="36" rx="18" fill="#1d222c" opacity="0.9"/>
+    <text x="70" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="2.4" fill="#ffe477">TRAINER HOODIE</text>
+  </g>
+  <text x="506" y="540" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3" fill="#8b816d">PIKACHU / 025</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.9">
+<g fill="#ffe08a" opacity=".2">
+  <circle cx="720" cy="150" r="130"/>
+  <circle cx="720" cy="150" r="104" fill="none" stroke="#ffd05a" stroke-width="3"/>
+</g>
+<g fill="#120d24" opacity=".85">
+  <path d="M0 420 L0 360 Q150 320 300 356 Q470 392 620 354 L640 420Z"/>
+  <path d="M1440 420 L1440 360 Q1290 320 1140 356 Q970 392 820 354 L800 420Z"/>
+  <polygon points="560,420 600,300 640,420"/><polygon points="800,420 840,300 880,420"/>
+</g>
+<g fill="#ffd75e" opacity=".45">
+  <circle cx="720" cy="60" r="3"/><circle cx="650" cy="90" r="2"/><circle cx="790" cy="96" r="2.4"/>
+  <circle cx="580" cy="150" r="1.8"/><circle cx="860" cy="150" r="2"/><circle cx="520" cy="240" r="1.6"/><circle cx="920" cy="240" r="1.8"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.9">
+<g fill="#2c5134" opacity=".75">
+  <path d="M0 420 L0 330 Q80 300 150 330 Q210 350 260 320 L260 420Z"/>
+  <path d="M1180 420 L1180 340 Q1250 300 1320 335 Q1390 355 1440 330 L1440 420Z"/>
+  <rect x="120" y="300" width="12" height="80"/><ellipse cx="126" cy="292" rx="54" ry="28"/>
+  <rect x="1300" y="310" width="10" height="70"/><ellipse cx="1305" cy="302" rx="46" ry="24"/>
+</g>
+<g stroke="#557d45" stroke-width="3" fill="none" opacity=".6">
+  <path d="M40 420 Q36 372 20 350 M40 420 Q48 380 64 360 M42 420 Q50 386 76 392"/>
+  <path d="M250 420 Q246 372 230 346 M250 420 Q258 382 276 362 M252 420 Q260 388 288 394"/>
+  <path d="M1160 420 Q1156 374 1140 348 M1160 420 Q1168 382 1186 364"/>
+  <path d="M1400 420 Q1396 370 1380 344 M1400 420 Q1408 384 1426 366"/>
+</g>
+<g fill="#ffe9a3" opacity=".55">
+  <circle cx="340" cy="300" r="2"/><circle cx="420" cy="260" r="1.6"/><circle cx="980" cy="286" r="1.8"/><circle cx="1060" cy="238" r="1.5"/>
+</g>
+</g>
+</svg>

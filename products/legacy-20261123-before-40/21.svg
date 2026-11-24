@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="24%" r="82%">
+      <stop offset="0" stop-color="#f3fbff"/>
+      <stop offset="0.62" stop-color="#e3f0f7"/>
+      <stop offset="1" stop-color="#cfdfe9"/>
+    </radialGradient>
+    <linearGradient id="canopy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe66e"/>
+      <stop offset="0.45" stop-color="#ffcb05"/>
+      <stop offset="1" stop-color="#e0a500"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff2a8" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#e5a900" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#9c7100" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4a3420"/>
+      <stop offset="0.5" stop-color="#7a5730"/>
+      <stop offset="1" stop-color="#3a2716"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#23343c" flood-opacity="0.26"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="452" cy="160" r="130" fill="#ffffff" opacity="0.45"/>
+  <path d="M0 480 Q170 438 320 476 T600 460 V600 H0Z" fill="#cadbe5"/>
+  <ellipse cx="306" cy="520" rx="160" ry="24" fill="#8da4b1" opacity="0.3" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M300 132 L132 356 Q300 300 468 356Z" fill="url(#canopy)"/>
+    <path d="M300 132 L196 356 Q300 322 404 356Z" fill="url(#shade)"/>
+    <path d="M300 132 L132 356 M300 132 L196 356 M300 132 L300 360 M300 132 L404 356 M300 132 L468 356" stroke="#8e6900" stroke-width="1.2" opacity="0.4"/>
+    <path d="M132 356 Q216 330 238 390 Q184 402 132 376Z" fill="#ffcb05" stroke="#c79200" stroke-width="1"/>
+    <path d="M468 356 Q384 330 362 390 Q416 402 468 376Z" fill="#ffcb05" stroke="#c79200" stroke-width="1"/>
+    <path d="M300 132 V472" stroke="url(#handle)" stroke-width="10"/>
+    <path d="M300 472 Q300 536 246 536 Q214 536 214 504" fill="none" stroke="url(#handle)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M300 132 Q286 112 300 94 Q314 112 300 132" fill="#c79200"/>
+    <circle cx="300" cy="128" r="6" fill="#fff0a8"/>
+  </g>
+
+  <g transform="translate(300 318)">
+    <circle r="48" fill="#fff" stroke="#1d2026" stroke-width="4" opacity="0.94"/>
+    <path d="M-48 0 H48" stroke="#1d2026" stroke-width="8"/>
+    <circle r="13" fill="#ee1515" stroke="#1d2026" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(86 96)">
+    <rect width="160" height="36" rx="18" fill="#142b3a" opacity="0.9"/>
+    <text x="80" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2.4" fill="#ffd84d">POKÉMON UMBRELLA</text>
+  </g>
+  <text x="508" y="544" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3" fill="#6e8794">UV CUT / 8 RIB</text>
+</svg>

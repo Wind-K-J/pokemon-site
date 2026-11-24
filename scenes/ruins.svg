@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.9">
+<g fill="#231b3d" opacity=".9">
+  <rect x="90" y="150" width="78" height="270"/><polygon points="90,150 118,116 168,150 168,166 90,166"/>
+  <rect x="250" y="230" width="58" height="190"/><polygon points="250,230 274,206 308,230 308,244 250,244"/>
+  <rect x="1290" y="140" width="86" height="280"/><polygon points="1290,140 1318,102 1376,146 1376,162 1290,162"/>
+  <rect x="1140" y="250" width="54" height="170"/>
+</g>
+<g fill="#392b5f" opacity=".6">
+  <rect x="90" y="150" width="12" height="270"/><rect x="1290" y="140" width="14" height="280"/>
+  <rect x="154" y="150" width="8" height="270"/><rect x="1368" y="140" width="8" height="280"/>
+</g>
+<g fill="#6b57a8" opacity=".35">
+  <polygon points="430,220 490,196 518,250 456,276"/>
+  <polygon points="960,150 1014,128 1042,174 986,198"/>
+  <polygon points="780,320 824,304 844,344 798,362"/>
+</g>
+<g stroke="#b18cff" stroke-width="2" fill="none" opacity=".4">
+  <path d="M420 140 L470 118 L500 150"/><path d="M980 260 L1020 240 L1050 272"/>
+</g>
+<g fill="#e8dcff" opacity=".5">
+  <circle cx="360" cy="140" r="1.8"/><circle cx="870" cy="120" r="2"/><circle cx="1100" cy="190" r="1.6"/><circle cx="620" cy="250" r="1.5"/>
+</g>
+</g>
+</svg>

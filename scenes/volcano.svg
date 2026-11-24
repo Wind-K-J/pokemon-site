@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.94">
+<g fill="#280b08" opacity=".92">
+  <polygon points="820,420 1030,96 1082,96 1300,420"/>
+  <polygon points="1030,96 1082,96 1056,64 1046,64"/>
+</g>
+<g fill="#ff6a2a" opacity=".55">
+ <path d="M1042 70 L1064 70 L1080 100 L1070 106 Q1052 88 1032 104Z"/>
+</g>
+<g opacity=".8">
+  <path d="M920 420 Q1000 340 1052 260" stroke="#ff7a33" stroke-width="6" fill="none" opacity=".5"/>
+  <path d="M980 420 Q1050 362 1068 310" stroke="#ffb15a" stroke-width="3" fill="none" opacity=".4"/>
+  <path d="M1180 420 Q1110 360 1090 300" stroke="#ff5a22" stroke-width="4" fill="none" opacity=".45"/>
+</g>
+<g fill="#160604" opacity=".9">
+  <polygon points="0,420 0,330 70,352 130,320 200,360 260,344 300,420"/>
+  <polygon points="1440,420 1440,320 1370,340 1300,306 1230,356 1180,332 1130,420"/>
+</g>
+<g fill="#ffbb66" opacity=".55">
+  <circle cx="830" cy="280" r="2.4"/><circle cx="892" cy="210" r="1.8"/><circle cx="1180" cy="260" r="2.2"/><circle cx="1260" cy="190" r="1.7"/>
+  <circle cx="760" cy="340" r="1.6"/><circle cx="1330" cy="330" r="1.8"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="bg" cx="42%" cy="22%" r="82%">
+      <stop offset="0" stop-color="#202733"/>
+      <stop offset="0.58" stop-color="#111722"/>
+      <stop offset="1" stop-color="#070a11"/>
+    </radialGradient>
+    <linearGradient id="velvet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c3444"/>
+      <stop offset="0.52" stop-color="#1c2431"/>
+      <stop offset="1" stop-color="#111722"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1b3"/>
+      <stop offset="0.32" stop-color="#e7b944"/>
+      <stop offset="0.7" stop-color="#9a6914"/>
+      <stop offset="1" stop-color="#ffe38a"/>
+    </linearGradient>
+    <radialGradient id="ballred" cx="34%" cy="26%" r="80%">
+      <stop offset="0" stop-color="#ff9a8e"/>
+      <stop offset="0.45" stop-color="#ee1515"/>
+      <stop offset="1" stop-color="#9c0606"/>
+    </radialGradient>
+    <radialGradient id="ballblue" cx="34%" cy="26%" r="80%">
+      <stop offset="0" stop-color="#9fd4ff"/>
+      <stop offset="0.46" stop-color="#2378c9"/>
+      <stop offset="1" stop-color="#0c3c73"/>
+    </radialGradient>
+    <radialGradient id="ballyellow" cx="34%" cy="26%" r="80%">
+      <stop offset="0" stop-color="#fff4ad"/>
+      <stop offset="0.48" stop-color="#ffcb05"/>
+      <stop offset="1" stop-color="#b78200"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="198" cy="176" r="160" fill="#ffcb05" opacity="0.09"/>
+  <circle cx="446" cy="430" r="180" fill="#ee1515" opacity="0.09"/>
+  <rect x="104" y="112" width="392" height="376" rx="24" fill="url(#velvet)" filter="url(#shadow)"/>
+  <rect x="104" y="112" width="392" height="376" rx="24" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.5"/>
+  <path d="M104 152 Q300 124 496 152" stroke="#ffffff" stroke-width="1" opacity="0.1"/>
+  <ellipse cx="300" cy="470" rx="150" ry="18" fill="#000" opacity="0.42" filter="url(#soft)"/>
+
+  <g transform="translate(190 236)" filter="url(#shadow)">
+    <circle r="72" fill="url(#gold)"/>
+    <circle r="61" fill="url(#ballred)"/>
+    <path d="M-61 0 H61" stroke="#161a20" stroke-width="10"/>
+    <circle r="18" fill="#fff" stroke="#161a20" stroke-width="6"/>
+    <circle r="5" fill="#ffd84d"/>
+    <circle cx="-22" cy="-28" r="14" fill="#fff" opacity="0.24"/>
+  </g>
+
+  <g transform="translate(386 310) scale(0.88)" filter="url(#shadow)">
+    <circle r="72" fill="url(#gold)"/>
+    <circle r="61" fill="url(#ballblue)"/>
+    <path d="M-61 0 H61" stroke="#161a20" stroke-width="10"/>
+    <circle r="18" fill="#fff" stroke="#161a20" stroke-width="6"/>
+    <path d="M-8 8 L6 8 L6 -10 L22 -10" stroke="#161a20" stroke-width="3" fill="none"/>
+  </g>
+
+  <g transform="translate(300 432) scale(0.66)" filter="url(#shadow)">
+    <circle r="72" fill="url(#gold)"/>
+    <circle r="61" fill="url(#ballyellow)"/>
+    <path d="M-61 0 H61" stroke="#161a20" stroke-width="10"/>
+    <path d="M-20 -28 L4 -42 L-4 -12 L16 -2 L-8 32 L0 2 L-22 -8Z" fill="#1a1d24"/>
+  </g>
+
+  <g transform="translate(86 82)">
+    <rect width="160" height="36" rx="18" fill="#070a11" opacity="0.82" stroke="#e7b944" stroke-width="0.8"/>
+    <text x="80" y="24" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="2.2" fill="#ffe38a">METAL BADGE SET</text>
+  </g>
+  <text x="506" y="540" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3" fill="#9b8244">3 PCS / ENAMEL</text>
+</svg>

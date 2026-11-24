@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.9">
+<g fill="#8f5a28" opacity=".42">
+  <path d="M0 420 L0 344 Q120 306 250 340 Q360 368 470 342 L470 420Z"/>
+  <path d="M1440 420 L1440 336 Q1330 300 1210 338 Q1100 366 990 340 L990 420Z"/>
+  <path d="M470 420 Q560 380 650 404 Q740 426 830 400 Q900 380 990 406 L990 420Z"/>
+</g>
+<g fill="#c08743" opacity=".5">
+  <path d="M0 420 L0 382 Q160 352 320 384 Q440 406 560 392 L560 420Z"/>
+  <path d="M900 420 L900 394 Q1040 358 1180 386 Q1310 410 1440 388 L1440 420Z"/>
+</g>
+<g fill="#7f4a1f" opacity=".36">
+  <polygon points="86,420 104,262 132,262 150,420"/>
+  <rect x="92" y="250" width="52" height="16"/>
+  <polygon points="76,250 118,232 160,250"/>
+  <polygon points="1266,420 1284,276 1310,276 1328,420"/>
+  <rect x="1272" y="264" width="48" height="14"/>
+  <polygon points="1256,264 1296,246 1336,264"/>
+</g>
+<g fill="#9b6632" opacity=".42">
+  <path d="M176 420 L176 340 Q238 320 300 342 L300 420Z"/>
+  <rect x="212" y="322" width="56" height="12"/>
+  <path d="M1096 420 L1096 332 Q1158 312 1220 334 L1220 420Z"/>
+  <rect x="1132" y="314" width="54" height="12"/>
+</g>
+<g opacity=".45">
+  <path d="M1376 420 Q1378 330 1386 292 Q1394 330 1396 420" stroke="#6b3f1c" stroke-width="9" fill="none"/>
+  <g fill="#4e8232" opacity=".6">
+    <path d="M1386 292 Q1340 260 1306 278 Q1346 288 1386 300Z"/>
+    <path d="M1386 292 Q1430 258 1460 278 Q1422 290 1386 300Z"/>
+    <path d="M1386 290 Q1350 240 1330 222 Q1372 254 1392 292Z"/>
+    <path d="M1386 290 Q1424 240 1444 224 Q1406 256 1390 292Z"/>
+  </g>
+</g>
+<g fill="#ffe6a8" opacity=".45">
+  <circle cx="360" cy="286" r="1.7"/><circle cx="470" cy="258" r="1.3"/><circle cx="1040" cy="272" r="1.6"/><circle cx="930" cy="246" r="1.3"/>
+</g>
+</g>
+</svg>

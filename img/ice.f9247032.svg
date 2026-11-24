@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+<g opacity="0.9">
+<g fill="#dff7ff" opacity=".18">
+  <path d="M0 120 Q260 40 520 118 Q760 190 1010 110 Q1220 40 1440 112 L1440 168 Q1200 96 1010 166 Q760 246 520 176 Q260 104 0 178Z"/>
+</g>
+<g fill="#b8ecff" opacity=".6">
+  <polygon points="80,420 128,180 174,420"/><polygon points="140,420 186,250 228,420"/>
+  <polygon points="1280,420 1332,166 1384,420"/><polygon points="1216,420 1264,244 1310,420"/>
+</g>
+<g fill="#ffffff" opacity=".45">
+  <polygon points="330,420 366,300 402,420"/><polygon points="1040,420 1074,312 1108,420"/>
+  <polygon points="560,420 584,352 608,420"/><polygon points="860,420 884,350 908,420"/>
+</g>
+<g fill="#eafcff" opacity=".5">
+  <circle cx="400" cy="200" r="2"/><circle cx="520" cy="140" r="1.6"/><circle cx="920" cy="180" r="2.1"/><circle cx="1020" cy="240" r="1.5"/>
+  <circle cx="760" cy="120" r="1.4"/><circle cx="1180" cy="200" r="1.8"/>
+</g>
+</g>
+</svg>
